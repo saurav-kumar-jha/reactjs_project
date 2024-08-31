@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+h1{
+  color: white;
+  font-size: 4rem;
+  font-family: serif;
+}
+.box{
+  height: 500px;
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: left;
+  /* overflow-y: scroll; */
+  box-shadow: 0 0 14px whitesmoke;
+}
+img{
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  border-radius: 5px;
+}
