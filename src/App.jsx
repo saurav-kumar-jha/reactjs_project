@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Card  from './component/card'
 import Netfilxseries  from './component/Netfixseries'
+import Navbar from './component/nav'
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
     
   // </>
   <>
-    <button className='btn' onClick={Add}>ADD</button>
+    <Navbar/>
+    {/* <button className='btn' onClick={Add}>ADD</button>
     <Netfilxseries img="download.jfif" rating="8" />
-    <Card name="SAURAV KUMAR JHA" about="lajlsdjlfjjalskdjfklajsdlkfjlsadjkjfasdlkfj" img="download.jfif" />
+    <Card name="SAURAV KUMAR JHA" about="lajlsdjlfjjalskdjfklajsdlkfjlsadjkjfasdlkfj" img="download.jfif" /> */}
   </>
   );
 }
