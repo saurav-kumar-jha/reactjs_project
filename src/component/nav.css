@@ -1,12 +1,12 @@
-body{
+/* body{
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: rgba(46, 46, 46, 0);
-    color: bisque;
-}
-.container{
+    color: rgb(255, 255, 255);
+} */
+/* .container{
     height: 60px;
     width: 100vw;
     max-width: 80vw;
@@ -14,8 +14,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
-}
+    border: 1px solid rgba(0, 0, 0, 0);
+} */
 .nav-left{
     height: 100%;
     border: 1px solid rgba(0, 0, 0, 0.007);
@@ -36,11 +36,11 @@ body{
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.034);
 }
-ul{
+/* ul{
     display: flex;
     justify-content: space-between;
-}
-ul li{
+} */
+/* ul li{
     list-style: none;
     font-weight: 600;
     font-size: 1.1rem;
@@ -56,11 +56,12 @@ ul li{
     border-radius: 45px;
     position: relative;
     
-}
-li:hover{
+} */
+/* li:hover{
     scale: 1.1;
     background-color: rgb(57, 58, 58);
-}
+    color: bisque;
+} */
 .childul{
     display: none;
     justify-content: center;

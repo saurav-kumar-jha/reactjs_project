@@ -18,7 +18,8 @@ function App() {
     
   // </>
   <>
-    <Navbar/>
+   <Netfilxseries/>
+    {/* <Navbar/> */}
     {/* <button className='btn' onClick={Add}>ADD</button>
     <Netfilxseries img="download.jfif" rating="8" />
     <Card name="SAURAV KUMAR JHA" about="lajlsdjlfjjalskdjfklajsdlkfjlsadjkjfasdlkfj" img="download.jfif" /> */}
@@ -26,18 +27,18 @@ function App() {
   );
 }
 
-const Add = ()=>{
-  console.log("hhhh")
-  return(
-    <>
-      <div className="container">
-        <input type="file" id="image" /><br />
-        <input type="text" id='name' placeholder='Enter name:' /><br />
-        <input type="text" id='about' placeholder='Enter about you' /><br />
-      </div>
-    </>
-  )
-}
+// const Add = ()=>{
+//   console.log("hhhh")
+//   return(
+//     <>
+//       <div className="container">
+//         <input type="file" id="image" /><br />
+//         <input type="text" id='name' placeholder='Enter name:' /><br />
+//         <input type="text" id='about' placeholder='Enter about you' /><br />
+//       </div>
+//     </>
+//   )
+// }
 
 
 export default App
